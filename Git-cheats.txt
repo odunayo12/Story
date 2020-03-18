@@ -50,7 +50,7 @@ git commit -m "message here"
 
 and
 
-git push
+git push origin master -u
 to serve it to the remote.
 
 
@@ -87,18 +87,5 @@ check github/gitignore for useful ready made templates depending on package.
 USE
 git clone url (from Git)
 
-FOR EXPERIMENTAL PURPOSES OR NEW FEATURE ADDITION; ONE COULD CREATE A COPY OF THE PROJECT; TEST OUT FEATURES AND LATER MERGE THE FEATURES
-To create a branch
-git branch branchName
-
-confirm using
-git branch
-
-to switch branches do
-git checkout branchName
-
-To merge branches, switch to master branch by
-git checkout master
-
-then
-git merger branchName
+To create a push in the branch
+git push --set-upstream origin experiment
