@@ -96,3 +96,9 @@ git branch
 
 to switch branches do
 git checkout branchName
+
+To merge branches, switch to master branch by
+git checkout master
+
+then
+git merger branchName
