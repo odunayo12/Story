@@ -106,3 +106,6 @@ git merger branchName
 
 To create a push in the remote  branch
 git push --set-upstream origin experiment
+
+Subsequently, to push to branch use
+git push origin branchName -u
