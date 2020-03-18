@@ -80,3 +80,9 @@ create a .gitignore file using
 touch .gitignore
 
 write the names of the files to be ignored with their extensions therein and each on a new line and save
+
+check github/gitignore for useful ready made templates depending on package.
+
+        CLONING
+USE
+git clone url (from Git)
