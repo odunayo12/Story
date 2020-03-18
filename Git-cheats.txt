@@ -1,0 +1,48 @@
+<kbd>Enter</kbd>
+
+git cheat codes
+
+Local repository, that is, repository on my system
+To initialize use
+git init
+
+Display all using
+ls -a
+
+check if file is commited to git with
+git status
+Note
+if file in our directory is not yet committed are shown in red.
+
+To add these files to git, do
+
+git add filename.extension
+or
+git add .
+if file is more than 1 and one needs to comit all
+else do
+git add filename.extension filename1.extension filename2.extension
+
+use git status to check
+if added it turns out green.
+
+Now, to commit it to versioning do
+
+git commit -m "Commit message in present tense"
+
+
+          ADD EDITING TO FILE SOURCE
+
+If new files are added to directory, use the add command
+do
+git commit -m "Commit message in present tense."
+
+use
+git log
+to view log
+
+      USING REMOTE REPOSITORIES (Git Hub)
+Create a repository in GitHub, do all formalities and....
+
+It then displays code, click https and follow either the create (to create new repo) or push instruction (to add an existing local repo to remote repo)
+but enter "set-url" before "origin"
