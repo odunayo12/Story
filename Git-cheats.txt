@@ -30,6 +30,28 @@ Now, to commit it to versioning do
 
 git commit -m "Commit message in present tense"
 
+AFTER EDITING THE PROJECT
+use
+git status
+to check for uncommited changes.
+
+To check for the discripancies do
+
+git diff filename.extension
+
+To roll back previous versions, do
+
+git checkout filename.extension
+
+or to proceed to save changes do
+git commit -m "message here"
+
+and
+
+git push
+to serve it to the remote.
+
+
 
           ADD EDITING TO FILE SOURCE
 
@@ -46,3 +68,6 @@ Create a repository in GitHub, do all formalities and....
 
 It then displays code, click https and follow either the create (to create new repo) or push instruction (to add an existing local repo to remote repo)
 but enter "set-url" before "origin"
+
+If already in remote, after committing the latest edit, simply use
+git push
