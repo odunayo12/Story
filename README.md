@@ -1,2 +1,2 @@
 # Story
-Learning Git Remote and merge
+Learning Git Remote.
